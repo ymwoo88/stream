@@ -27,7 +27,7 @@ public class User {
                 .id(1L)
                 .name("amil")
                 .email("amil@ymwoo.com")
-                .age(25)
+                .age(28)
                 .isWorking(true)
                 .build();
     }
@@ -37,7 +37,7 @@ public class User {
                 .id(2L)
                 .name("benny")
                 .email("benny@ymwoo.com")
-                .age(29)
+                .age(26)
                 .isWorking(true)
                 .build();
     }
