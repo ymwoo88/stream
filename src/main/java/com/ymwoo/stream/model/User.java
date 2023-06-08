@@ -59,4 +59,17 @@ public class User {
     public static List<User> getExamUserList() {
         return Arrays.asList(getUserAmil(), getUserCho(), getUserBenny());
     }
+
+    @Override
+    public boolean equals(Object o) {
+        if (o instanceof User) {
+            return this.isWorking.equals(((User) o).getIsWorking());   // 값 비교
+        }
+        return false;
+    }
+
+    @Override
+    public int hashCode() {
+        return isWorking.hashCode();
+    }
 }

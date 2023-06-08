@@ -1,4 +1,4 @@
-package com.ymwoo.stream.filter;
+package com.ymwoo.stream.sort;
 
 import com.ymwoo.stream.model.User;
 import lombok.extern.slf4j.Slf4j;
