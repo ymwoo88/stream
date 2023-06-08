@@ -20,6 +20,7 @@ public class User {
     private String email;
     private Integer age;
     private Boolean isWorking;
+    private List<String> hobbies;
 
 
     public static User getUserAmil() {
@@ -29,6 +30,7 @@ public class User {
                 .email("amil@ymwoo.com")
                 .age(28)
                 .isWorking(true)
+                .hobbies(List.of("골프", "영화감상"))
                 .build();
     }
 
@@ -39,6 +41,7 @@ public class User {
                 .email("benny@ymwoo.com")
                 .age(26)
                 .isWorking(true)
+                .hobbies(List.of("골프", "낚시"))
                 .build();
     }
 
@@ -49,6 +52,7 @@ public class User {
                 .email("cho@ymwoo.com")
                 .age(33)
                 .isWorking(false)
+                .hobbies(List.of("등산", "캥핌"))
                 .build();
     }
 
